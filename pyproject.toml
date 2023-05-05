@@ -1,11 +1,17 @@
 [tool.poetry]
 name = "dataframe-ai"
 version = "0.1.0"
-description = ""
+description = "Interact with your pandas dataframes in a Natural Language way."
 authors = ["Ambuj Pawar"]
+packages = [{include = "dataframe-ai", from="src"}]
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/ambujpawar/dataframe-ai"
+keywords = ["pandas", "gpt", "nlp", "dataframe", "ai", "natural-language-processing", "llm", "language-model"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+pandas = "^2.0.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.0.1"
@@ -14,6 +20,13 @@ isort = "^5.10.1"
 black = "^22.1.0"
 mypy = "^0.931"
 flake8 = "^4.0.1"
+
+[tool.poetry.group.dev.dependencies]
+loguru = "^0.7.0"
+
+[tool.poetry.group.build.dependencies]
+build = "^0.10.0"
+twine = "^4.0.2"
 
 [tool.black]
 # https://github.com/psf/black
