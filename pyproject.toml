@@ -3,7 +3,7 @@ name = "dataframe-ai"
 version = "0.1.0"
 description = "Interact with your pandas dataframes in a Natural Language way."
 authors = ["Ambuj Pawar"]
-packages = [{include = "dataframe-ai", from="src"}]
+packages = [{include = "dataframe_ai", from="src"}]
 readme = "README.md"
 license = "MIT"
 repository = "https://github.com/ambujpawar/dataframe-ai"
