@@ -17,7 +17,7 @@ class LLM:
         """
         raise NotImplementedError("Method not implemented")
 
-    def get_code(self, response) -> str:
+    def get_code_block(self, response) -> str:
         """
         Parses the response from the LLM and returns the code block
 
