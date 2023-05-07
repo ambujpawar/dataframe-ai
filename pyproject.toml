@@ -26,6 +26,7 @@ flake8 = "^4.0.1"
 
 [tool.poetry.group.dev.dependencies]
 loguru = "^0.7.0"
+pylint = "^2.17.4"
 
 [tool.poetry.group.build.dependencies]
 build = "^0.10.0"
