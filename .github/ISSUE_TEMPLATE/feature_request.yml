@@ -1,5 +1,5 @@
 name: 🚀 Feature request
-description: Submit a proposal/request for a new pandas-ai feature
+description: Submit a proposal/request for a new dataframe-ai feature
 
 body:
 - type: textarea
