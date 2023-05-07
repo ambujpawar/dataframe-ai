@@ -16,3 +16,12 @@ class LLM:
         :return: The generated code.
         """
         raise NotImplementedError("Method not implemented")
+
+    def get_code(self, response) -> str:
+        """
+        Parses the response from the LLM and returns the code block
+
+        :param response: The query to get code for.
+        :return: The code.
+        """
+        raise NotImplementedError("Method not implemented")
